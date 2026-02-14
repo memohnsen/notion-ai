@@ -189,7 +189,6 @@ def build_prompt(csv_text: str, row_count: int) -> str:
         Your goal is to analyze the data and provide insights on content performance, trends, audience resonance, posting cadence, and experiments to try next. 
 
         DATA INSIGHTS:
-        - Followers are not a good proxy for performance as I've been following more people.
         - This page is a mix of posts for the various jobs I do. 
         - I work as an Olympic Weightlifting Coach, so most posts revolve around this.
         - I also work as a software developer for mobile apps directed at Olympic Weightlifting Coaches and Athletes.  
@@ -202,7 +201,10 @@ def build_prompt(csv_text: str, row_count: int) -> str:
         2. Gain more installs and subscriptions to my mobile apps.
 
         POSTING CADENCE:
+        - Tuesday: Voiceover B Roll
+        - Wednesday: Training Clip
         - Thusday: App Advertisement
+        - Friday: Seminar Clip
         - Sunday: Athlete Highlight
         - All other days are a mix of weightlifting tips and humor
 
